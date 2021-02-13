@@ -24,7 +24,10 @@ const func = () => {
   let g733 = get("g733");
   let weather = get("wttrtemp");
 
-  text = new St.Label({ text: `${g733} ${weather}` });
+  text = new St.Label({
+    text: `${g733.trim()} ${weather.trim()}`,
+    y_align: Clutter.ActorAlign.CENTER,
+  });
 
   let monitor = Main.layoutManager.primaryMonitor;
   text.set_position(
