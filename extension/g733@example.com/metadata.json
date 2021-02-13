@@ -1,0 +1,8 @@
+{
+  "name": "Read battery of g733",
+  "description": "Hello there; General Kenobi",
+  "shell-version": ["3.36"],
+  "url": "",
+  "uuid": "g733@example.com",
+  "version": 1.0
+}
